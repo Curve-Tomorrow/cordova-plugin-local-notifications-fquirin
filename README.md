@@ -1,5 +1,9 @@
 ### Notes about this fork
 
+November -28 - 2023 -- PLEASE USE THE FORK FROM https://github.com/fquirin/cordova-plugin-local-notifications/tree/pr-katzer   for the local notifications functionality fixes for ANDROID 12+
+
+
+
 - This is a merge of [@timkellypa](https://github.com/timkellypa/cordova-plugin-local-notifications), [@bhandaribhumin](https://github.com/bhandaribhumin/cordova-plugin-local-notification-12), [@powowbox](https://github.com/powowbox/cordova-plugin-local-notification-12) and my own fixes.
 - If the app's in background and the 'triggerInApp' option is set to 'true', there is no way to show to users a new notification since the notification is not displayed in the notification center and the app is not visible. 
   - <b>Fix</b>: if the app's running in background, display the notification in the notification center.
