@@ -1,6 +1,8 @@
 ### Notes about this fork
 
 November -28 - 2023 -- PLEASE USE THE FORK FROM https://github.com/fquirin/cordova-plugin-local-notifications/tree/pr-katzer   for the local notifications functionality fixes for ANDROID 12+
+use below command
+cordova plugin add https://github.com/fquirin/cordova-plugin-local-notifications#pr-katzer
 
 
 
